@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Especialista en Backend y Bases de Datos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">{</span>
+                <span class="logo-name">DevDB</span>
+                <span class="logo-text">}</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-text">Hola, soy <span class="highlight">Jhon Vasquez</span></h1>
+                <h2 class="hero-subtitle">Especialista en Backend y Bases de Datos</h2>
+                <p class="hero-description">Construyo sistemas robustos, escalables y eficientes con arquitecturas de backend sólidas y bases de datos optimizadas.</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">Contactame</a>
+                    <a href="#proyectos" class="btn btn-secondary">Ver Proyectos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+    <div class="profile-image-container">
+        <img src="img/perfil.jpg" alt="Tu Nombre - Especialista en Backend y Bases de Datos" class="profile-image">
+        <div class="profile-image-border"></div>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mis <span class="highlight">Habilidades</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="backend">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%"></div>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Node.js / Express</li>
+                        <li>Python / Django</li>
+                        <li>Java / Spring Boot</li>
+                        <li>API REST / GraphQL</li>
+                        <li>Microservicios</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card" data-skill="database">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Bases de Datos</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 98%"></div>
+                    </div>
+                    <ul class="skill-list">
+                        <li>PostgreSQL / MySQL</li>
+                        <li>MongoDB / NoSQL</li>
+                        <li>Redis / Caching</li>
+                        <li>Diseño de Esquemas</li>
+                        <li>Optimización de Queries</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card" data-skill="devops">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>DevOps & Cloud</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Docker / Kubernetes</li>
+                        <li>AWS / Azure</li>
+                        <li>CI/CD Pipelines</li>
+                        <li>Infraestructura como Código</li>
+                        <li>Monitoreo y Logging</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mis <span class="highlight">Proyectos</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/database-optimization.jpg" alt="Optimización de Base de Datos">
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema de Optimización de Queries</h3>
+                        <p>Plataforma que analiza y optimiza consultas SQL reduciendo tiempos de ejecución en un 70%.</p>
+                        <div class="project-tech">
+                            <span>PostgreSQL</span>
+                            <span>Python</span>
+                            <span>Django</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Ver Detalles</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/api-gateway.jpg" alt="API Gateway">
+                    </div>
+                    <div class="project-content">
+                        <h3>API Gateway Distribuido</h3>
+                        <p>Arquitectura de microservicios con balanceo de carga y caché distribuido para alta disponibilidad.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>Redis</span>
+                            <span>Kubernetes</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Ver Detalles</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/data-migration.jpg" alt="Migración de Datos">
+                    </div>
+                    <div class="project-content">
+                        <h3>Herramienta de Migración de Datos</h3>
+                        <p>Sistema ETL para migrar millones de registros entre diferentes motores de bases de datos con integridad garantizada.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MongoDB</span>
+                            <span>SQL Server</span>
+                        </div>
+                        <a href="#" class="btn btn-small">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <h2 class="section-title">Mi <span class="highlight">Experiencia</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - Presente</div>
+                    <div class="timeline-content">
+                        <h3>Arquitecto de Bases de Datos</h3>
+                        <h4>Tech Solutions Inc.</h4>
+                        <p>Diseño e implementación de esquemas de bases de datos para aplicaciones empresariales. Optimización de queries complejas y configuración de clusters de alta disponibilidad.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollador Backend Senior</h3>
+                        <h4>Data Systems Corp.</h4>
+                        <p>Desarrollo de APIs RESTful y GraphQL para aplicaciones web y móviles. Implementación de sistemas de caché y colas de mensajes para mejorar el rendimiento.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2015 - 2018</div>
+                    <div class="timeline-content">
+                        <h3>Analista de Bases de Datos</h3>
+                        <h4>Enterprise IT Solutions</h4>
+                        <p>Análisis y optimización de bases de datos existentes. Creación de procedimientos almacenados y triggers para automatizar procesos empresariales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáct<span class="highlight">ame</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> email@ejemplo.com</li>
+                        <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Ciudad, País</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Tu Nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Tu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Asunto">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Tu Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 [Jhon Vasquez]. Todos los derechos reservados.</p>
+            <p>Especialista en Backend y Bases de Datos</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
