@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio | Especialista en Backend y Bases de Datos</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Mi Portafolio | Jhon Vasquez</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/user.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="logo">
                 <span class="logo-text">{</span>
-                <span class="logo-name">DevDB</span>
+                <span class="logo-name">Mi Portafolio</span>
                 <span class="logo-text">}</span>
             </div>
-           <nav class="nav">
-    <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
-                    
                     <li><a href="#contacto">Contacto</a></li>
-        <li class="download-cv-mobile"><a href="./pdf/Curriculum Jhon Vasquez.pdf" download>Descargar CV</a></li>
-    </ul>
-</nav>
+                    <li class="download-cv-mobile"><a href="./pdf/Curriculum Jhon Vasquez.pdf" download>Descargar CV</a>
+                    </li>
+                </ul>
+            </nav>
             <div class="menu-toggle">
                 <i class="fas fa-bars"></i>
             </div>
@@ -38,82 +43,81 @@
             <div class="hero-content">
                 <h1 class="hero-title animate-text">Hola, soy <span class="highlight">Jhon Vasquez</span></h1>
                 <h2 class="hero-subtitle">Especialista en Backend y Bases de Datos</h2>
-                <p class="hero-description">Construyo sistemas robustos, escalables y eficientes con arquitecturas de backend sólidas y bases de datos optimizadas.</p>
-                
+                <p class="hero-description">Construyo sistemas robustos, escalables y eficientes con arquitecturas de
+                    backend sólidas y bases de datos optimizadas.</p>
             </div>
             <div class="hero-image">
-    <div class="profile-image-container">
-        
-        <div class="profile-image-border"></div>
-    </div>
-</div>
+                <div class="profile-image-container">
+                    <div class="profile-image-border"></div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="sobre-mi" class="about">
-    <div class="container">
-        <h2 class="section-title">Sobre <span class="highlight">mí</span></h2>
-        <div class="about-content">
-            <div class="about-text">
-                Holap gente
+        <div class="container">
+            <h2 class="section-title">Sobre <span class="highlight">mí</span></h2>
+            <div class="about-content">
+                <div class="about-text" style="font-size: 1.2rem; text-align: justify; text-justify: inter-word;">
+                    Desarrollador Backend con 3+ años de experiencia (proyectos universitarios y freelance).
+                    Especializado en bases de datos, optimización de consultas (reducción hasta 80%) y desarrollo
+                    robusto con Python, PHP y JavaScript. Experiencia en CI/CD y liderazgo en soluciones escalables
+                    (+2,000 usuarios). Busco un equipo donde aportar mi experiencia técnica y seguir creciendo.
+                </div>
             </div>
-            
         </div>
-    </div>
-</section>
+    </section>
 
     <section id="habilidades" class="skills">
         <div class="container">
             <h2 class="section-title">Mis <span class="highlight">Habilidades</span></h2>
             <div class="skills-grid">
-                <div class="skill-card" data-skill="backend">
+                <div class="skill-card" data-skill="web">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Desarrollo Web</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                    <ul class="skill-list">
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>PHP, Python</li>
+                        <li>Diseño Responsivo (Adaptable a dispositivos)</li>
+                        <li>Rendimiento Web (Optimización)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card" data-skill="backend-db">
                     <div class="skill-icon">
                         <i class="fas fa-server"></i>
                     </div>
-                    <h3>Backend Development</h3>
+                    <h3>Backend & Bases de Datos</h3>
                     <div class="skill-bar">
-                        <div class="skill-level" style="width: 95%"></div>
+                        <div class="skill-level" style="width: 96%"></div>
                     </div>
                     <ul class="skill-list">
-                        <li>Node.js / Express</li>
-                        <li>Python / Django</li>
-                        <li>Java / Spring Boot</li>
-                        <li>API REST / GraphQL</li>
-                        <li>Microservicios</li>
+                        <li><strong>Backend:</strong>Python (Django/Flask)</li>
+                        <li><strong>APIs:</strong> RESTful, GraphQL, Websockets</li>
+                        <li><strong>SQL:</strong>MySQL (Optimización)</li>
+                        <li><strong>NoSQL:</strong> MongoDB, Redis (Caching)</li>
                     </ul>
                 </div>
 
-                <div class="skill-card" data-skill="database">
+                <div class="skill-card" data-skill="teamwork">
                     <div class="skill-icon">
-                        <i class="fas fa-database"></i>
+                        <i class="fas fa-users"></i>
                     </div>
-                    <h3>Bases de Datos</h3>
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 98%"></div>
-                    </div>
-                    <ul class="skill-list">
-                        <li>PostgreSQL / MySQL</li>
-                        <li>MongoDB / NoSQL</li>
-                        <li>Redis / Caching</li>
-                        <li>Diseño de Esquemas</li>
-                        <li>Optimización de Queries</li>
-                    </ul>
-                </div>
-
-                <div class="skill-card" data-skill="devops">
-                    <div class="skill-icon">
-                        <i class="fas fa-cloud"></i>
-                    </div>
-                    <h3>DevOps & Cloud</h3>
+                    <h3>Trabajo en Equipo</h3>
                     <div class="skill-bar">
                         <div class="skill-level" style="width: 85%"></div>
                     </div>
                     <ul class="skill-list">
-                        <li>Docker / Kubernetes</li>
-                        <li>AWS / Azure</li>
-                        <li>CI/CD Pipelines</li>
-                        <li>Infraestructura como Código</li>
-                        <li>Monitoreo y Logging</li>
+                        <li>Diagnóstico</li>
+                        <li>Metodologías Ágiles</li>
+                        <li>Git y Control de Versiones</li>
+                        <li>Comunicación Técnica</li>
+                        <li>Resolución de Problemas</li>
                     </ul>
                 </div>
             </div>
@@ -126,27 +130,62 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="img/database-optimization.jpg" alt="Optimización de Base de Datos">
+                        <div class="image-slider">
+                            <img src="img/santa_eduviges/login.png" alt="Login Santa Eduvigis">
+                            <img src="img/santa_eduviges/dashboard.png" alt="Dashboard Santa Eduvigis"
+                                style="display:none;">
+                            <img src="img/santa_eduviges/bitacora.png" alt="Bitácora Santa Eduvigis"
+                                style="display:none;">
+                        </div>
+                        <button class="slider-btn prev-btn">&#10094;</button>
+                        <button class="slider-btn next-btn">&#10095;</button>
+                        <div class="slider-dots"></div>
                     </div>
                     <div class="project-content">
-                        <h3>Sistema de Optimización de Queries</h3>
-                        <p>Plataforma que analiza y optimiza consultas SQL reduciendo tiempos de ejecución en un 70%.</p>
-                        <div class="project-tech">
-                            <span>PostgreSQL</span>
-                            <span>Python</span>
-                            <span>Django</span>
+                        <h3>Sistema Web para el Manejo Estadístico de Datos Demográficos</h3>
+                        <p
+                            style="text-align: justify; text-justify: inter-word; hyphens: auto; line-height: 1.6; margin-bottom: 15px;">
+                            Este sistema web tiene como objetivo principal facilitar el manejo estadístico de los datos
+                            demográficos de la comunidad "Santa Eduvigis". La plataforma está diseñada para recolectar,
+                            almacenar, analizar y visualizar datos demográficos, permitiendo una mejor toma de
+                            decisiones y una planificación comunitaria más eficiente.
+                        </p>
+                        <div class="project-tech highlighted-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
                         </div>
-                        <a href="#" class="btn btn-small">Ver Detalles</a>
+                        <div class="project-buttons">
+                            <div class="project-buttons">
+                                <a href="http://localhost/santa_eduviges3.0/src/index.php"
+                                    class="btn btn-small btn-primary" target="_blank" rel="noopener noreferrer">
+                                    <img src="./img/exterior.svg" alt="Abrir página" class="btn-icon"> Ver Página
+                                </a>
+                                <a href="https://github.com/Jhoncarl2/Santa-Eduviges"
+                                    class="btn btn-small btn-secondary" target="_blank" rel="noopener noreferrer">
+                                    <img src="./img/GitHub.svg" alt="Abrir página" class="btn-icon"> Ver en GitHub
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="img/api-gateway.jpg" alt="API Gateway">
+                        <div class="image-slider">
+                            <img src="img/clinica_dental/incio.png" alt="Inicio Clinica Dental">
+                            <img src="img/clinica_dental/login.png" alt="Login Clinica Dental">
+                            <img src="img/clinica_dental/dashboard.png" alt="Dashboard Clinica Dental">
+                            <img src="img/clinica_dental/reportes.png" alt="Reportes Clinica Dental">
+                        </div>
+                        <button class="slider-btn prev-btn">&#10094;</button>
+                        <button class="slider-btn next-btn">&#10095;</button>
+                        <div class="slider-dots"></div>
                     </div>
                     <div class="project-content">
-                        <h3>API Gateway Distribuido</h3>
-                        <p>Arquitectura de microservicios con balanceo de carga y caché distribuido para alta disponibilidad.</p>
+                        <h3>Sistema de Citas para una Clinica Dental</h3>
+                        <p>Arquitectura de microservicios con balanceo de carga y caché distribuido para alta
+                            disponibilidad.</p>
                         <div class="project-tech">
                             <span>Node.js</span>
                             <span>Redis</span>
@@ -162,7 +201,8 @@
                     </div>
                     <div class="project-content">
                         <h3>Herramienta de Migración de Datos</h3>
-                        <p>Sistema ETL para migrar millones de registros entre diferentes motores de bases de datos con integridad garantizada.</p>
+                        <p>Sistema ETL para migrar millones de registros entre diferentes motores de bases de datos con
+                            integridad garantizada.</p>
                         <div class="project-tech">
                             <span>Java</span>
                             <span>MongoDB</span>
@@ -175,24 +215,21 @@
         </div>
     </section>
 
-    
-
     <section id="contacto" class="contact">
         <div class="container">
-            <h2 class="section-title">Contáctame</span></h2>
+            <h2 class="section-title">Contáctame</h2>
             <div class="contact-grid">
                 <div class="contact-info">
                     <h3>Información de Contacto</h3>
                     <ul>
-                        <li><i class="fas fa-envelope"></i> email@ejemplo.com</li>
-                        <li><i class="fas fa-phone"></i> +123 456 7890</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Ciudad, País</li>
+                        <li><i class="fas fa-envelope"></i> jhonnyv2511@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +58 424-596-49-90</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Cabudare - Lara, Venezuela</li>
                     </ul>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                        <a href="https://github.com/Jhoncarl2" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jhonvasquez2511" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="contact-form">
@@ -218,10 +255,298 @@
 
     <footer class="footer">
         <div class="container">
-            
+            <p>&copy; 2024 Jhon Vasquez. Todos los derechos reservados.</p>
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <!-- Lightbox mejorado -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <div class="lightbox-control prev">&#10094;</div>
+            <img id="lightbox-img" class="lightbox-img" src="" alt="Imagen expandida">
+            <div class="lightbox-control next">&#10095;</div>
+        </div>
+    </div>
+
+    <script>document.addEventListener('DOMContentLoaded', function () {
+            // Mobile menu toggle
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('.nav');
+
+            menuToggle.addEventListener('click', function () {
+                nav.classList.toggle('active');
+                menuToggle.querySelector('i').classList.toggle('fa-times');
+                menuToggle.querySelector('i').classList.toggle('fa-bars');
+            });
+
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    if (nav.classList.contains('active')) {
+                        nav.classList.remove('active');
+                        menuToggle.querySelector('i').classList.toggle('fa-times');
+                        menuToggle.querySelector('i').classList.toggle('fa-bars');
+                    }
+
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Header scroll effect
+            const header = document.querySelector('.header');
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // Animate skill bars on scroll
+            const skillCards = document.querySelectorAll('.skill-card');
+
+            function animateSkillBars() {
+                skillCards.forEach(card => {
+                    const skillLevel = card.querySelector('.skill-level');
+                    // Guardar el ancho original para poder resetearlo y animarlo de nuevo
+                    const originalWidth = skillLevel.style.width;
+                    skillLevel.style.width = '0'; // Resetear para la animación
+                    setTimeout(() => {
+                        skillLevel.style.width = originalWidth; // Animar al ancho original
+                    }, 300);
+                });
+            }
+
+            // Intersection Observer for scroll animations
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver(function (entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate');
+
+                        if (entry.target.classList.contains('skills-grid')) {
+                            animateSkillBars();
+                        }
+
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            // Observe sections
+            document.querySelectorAll('section').forEach(section => {
+                observer.observe(section);
+            });
+
+            // --- Carrusel de Proyectos ---
+            document.querySelectorAll('.project-card').forEach(card => {
+                const slider = card.querySelector('.image-slider');
+                if (!slider) return; // Si no hay slider en esta tarjeta, salta
+
+                const images = slider.querySelectorAll('img');
+                const prevBtn = card.querySelector('.prev-btn');
+                const nextBtn = card.querySelector('.next-btn');
+                const dotsContainer = card.querySelector('.slider-dots');
+
+                let currentIndex = 0;
+
+                // Función para mostrar una imagen específica
+                function showImage(index) {
+                    images.forEach((img, i) => {
+                        img.style.display = (i === index) ? 'block' : 'none';
+                        // Para una transición de opacidad, puedes añadir/quitar una clase
+                        // o manejar la opacidad directamente si no hay otras transiciones
+                        img.style.opacity = (i === index) ? '1' : '0';
+                    });
+                    updateDots(index);
+                }
+
+                // Función para actualizar los puntos de navegación
+                function updateDots(index) {
+                    if (dotsContainer) {
+                        dotsContainer.innerHTML = ''; // Limpiar puntos existentes
+                        for (let i = 0; i < images.length; i++) {
+                            const dot = document.createElement('span');
+                            dot.classList.add('dot');
+                            if (i === index) {
+                                dot.classList.add('active');
+                            }
+                            dot.addEventListener('click', () => {
+                                currentIndex = i;
+                                showImage(currentIndex);
+                            });
+                            dotsContainer.appendChild(dot);
+                        }
+                    }
+                }
+
+                // Navegación: Siguiente imagen
+                if (nextBtn) {
+                    nextBtn.addEventListener('click', () => {
+                        currentIndex = (currentIndex + 1) % images.length;
+                        showImage(currentIndex);
+                    });
+                }
+
+                // Navegación: Imagen anterior
+                if (prevBtn) {
+                    prevBtn.addEventListener('click', () => {
+                        currentIndex = (currentIndex - 1 + images.length) % images.length;
+                        showImage(currentIndex);
+                    });
+                }
+
+                // Inicializar el slider
+                if (images.length > 1) { // Solo inicializa si hay más de una imagen
+                    showImage(currentIndex);
+                } else {
+                    // Si solo hay una imagen, ocultar botones y puntos
+                    if (prevBtn) prevBtn.style.display = 'none';
+                    if (nextBtn) nextBtn.style.display = 'none';
+                    if (dotsContainer) dotsContainer.style.display = 'none';
+                }
+            });
+
+            // Form submission
+            const contactForm = document.getElementById('contactForm');
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    // Get form values
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const subject = document.getElementById('subject').value;
+                    const message = document.getElementById('message').value;
+
+                    // Here you would typically send the form data to a server
+                    console.log('Form submitted:', { name, email, subject, message });
+
+                    // Show success message
+                    alert('Gracias por tu mensaje. Me pondré en contacto contigo pronto!');
+
+                    // Reset form
+                    contactForm.reset();
+                });
+            }
+        });
+
+        // Lightbox mejorado
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const closeLightbox = document.querySelector('.close-lightbox');
+        const prevControl = document.querySelector('.lightbox-control.prev');
+        const nextControl = document.querySelector('.lightbox-control.next');
+
+        let currentImages = [];
+        let currentIndex = 0;
+
+        // Función para bloquear el scroll
+        function disableScroll() {
+            document.body.classList.add('body-no-scroll');
+            document.documentElement.style.overflow = 'hidden';
+        }
+
+        // Función para habilitar el scroll
+        function enableScroll() {
+            document.body.classList.remove('body-no-scroll');
+            document.documentElement.style.overflow = '';
+        }
+
+        // Función para abrir el lightbox
+        function openLightbox(images, index) {
+            currentImages = images;
+            currentIndex = index;
+            lightbox.style.display = 'block';
+            lightboxImg.src = currentImages[currentIndex].src;
+            lightboxImg.alt = currentImages[currentIndex].alt || 'Imagen del proyecto';
+            disableScroll();
+        }
+
+        // Función para cambiar de imagen
+        function changeImage(direction) {
+            currentIndex += direction;
+
+            // Circular navigation
+            if (currentIndex >= currentImages.length) {
+                currentIndex = 0;
+            } else if (currentIndex < 0) {
+                currentIndex = currentImages.length - 1;
+            }
+
+            // Efecto de transición
+            lightboxImg.style.opacity = '0';
+            setTimeout(() => {
+                lightboxImg.src = currentImages[currentIndex].src;
+                lightboxImg.alt = currentImages[currentIndex].alt || 'Imagen del proyecto';
+                lightboxImg.style.opacity = '1';
+            }, 300);
+        }
+
+        // Cerrar lightbox
+        closeLightbox.addEventListener('click', function () {
+            lightbox.style.display = 'none';
+            enableScroll();
+        });
+
+        // Navegación entre imágenes
+        prevControl.addEventListener('click', (e) => {
+            e.stopPropagation();
+            changeImage(-1);
+        });
+
+        nextControl.addEventListener('click', (e) => {
+            e.stopPropagation();
+            changeImage(1);
+        });
+
+        // Cerrar al hacer clic fuera de la imagen
+        lightbox.addEventListener('click', function (e) {
+            if (e.target === lightbox) {
+                lightbox.style.display = 'none';
+                enableScroll();
+            }
+        });
+
+        // Cerrar con tecla ESC
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && lightbox.style.display === 'block') {
+                lightbox.style.display = 'none';
+                enableScroll();
+            }
+
+            // Navegación con teclado
+            if (lightbox.style.display === 'block') {
+                if (e.key === 'ArrowLeft') {
+                    changeImage(-1);
+                } else if (e.key === 'ArrowRight') {
+                    changeImage(1);
+                }
+            }
+        });
+
+        // Modificar el evento click de las imágenes para agruparlas por proyecto
+        document.querySelectorAll('.project-card').forEach(card => {
+            const images = card.querySelectorAll('.project-image img, .image-slider img');
+            images.forEach((img, index) => {
+                img.addEventListener('click', function () {
+                    openLightbox(Array.from(images), index);
+                });
+            });
+        });</script>
 </body>
+
 </html>
